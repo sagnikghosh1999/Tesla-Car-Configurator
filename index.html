@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS -->
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon.ico"
+      type="image/x-icon"
+      sizes="196x196"
+    />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon.ico" />
+    <title>Design your Model Y | Tesla</title>
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div id="top-bar" class="bg-gray-100 fixed top-0 right-0 left-0 py-2">
+      <p class="text-center py-2 font-medium text-xs">
+        Take delivery by Dec 31 to receive 3 months of FSD (Supervised) and
+        Supercharging. <span class="underline font-semibold">Learn More</span>
+      </p>
+    </div>
+    <!-- Top Bar -->
+    <!-- Header -->
+    <header class="flex justify-between items-center px-10 py-6 mt-16">
+      <img src="/images/logo.svg" alt="Tesla" width="120" height="24" />
+      <button>
+        <i class="fa-solid fa-globe"></i><span class="font-semibold"> US</span>
+      </button>
+    </header>
+    <!-- Header -->
+
+    <main class="flex flex-col md:flex-row justify-between px-4 md:px-10 py-6">
+      <!-- Image Section -->
+      <section class="w-full md:w-2/3 xl:w-3/4">
+        <div class="sticky top-24">
+          <!-- Exterior Image -->
+          <div
+            class="md:h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4"
+          >
+            <img
+              src="images/model-y-stealth-grey.jpg"
+              alt="Model Y"
+              class="max-w-full h-auto transform scale-125"
+              id="exterior-image"
+            />
+          </div>
+          <!-- Interior image -->
+          <div
+            class="md:h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4"
+          >
+            <img
+              src="images/model-y-interior-dark.jpg"
+              alt="Model Y Interior"
+              class="max-w-full h-auto transform scale-125"
+              id="interior-image"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Image Section -->
+      <!-- Sidebar -->
+      <aside
+        class="w-full md:w-1/3 xl:w-1/4 pl-0 md:pl-4 lg:pl-8 mt-6 md:mt-0 z-2"
+      >
+        <h1 class="text-5xl text-center leading-10 font-semibold mb-3 lg:mb-5">
+          Model Y
+        </h1>
+        <h2 class="text-xl text-center font-light">Customize Your Car</h2>
+        <!-- Exterior Buttons -->
+        <div class="my-4 lg:my-8" id="exterior-buttons">
+          <h3 class="font-semibold mb-2">Exterior Color</h3>
+          <div class="flex space-x-4">
+            <button
+              class="btn-selected transition-transform duration-300 hover:scale-110"
+            >
+              <img
+                src="./images/button-stealth-grey.avif"
+                alt="Stealth Grey"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+            <button class="transition-transform duration-300 hover:scale-110">
+              <img
+                src="./images/button-pearl-white.avif"
+                alt="Pearl White"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+            <button class="transition-transform duration-300 hover:scale-110">
+              <img
+                src="./images/button-deep-blue-metallic.avif"
+                alt="Deep Blue"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+            <button class="transition-transform duration-300 hover:scale-110">
+              <img
+                src="./images/button-solid-black.avif"
+                alt="Solid Black"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+            <button class="transition-transform duration-300 hover:scale-110">
+              <img
+                src="./images/button-ultra-red.avif"
+                alt="Ultra Red"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+            <button class="transition-transform duration-300 hover:scale-110">
+              <img
+                src="./images/button-quicksilver.avif"
+                alt="Quicksilver"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+          </div>
+        </div>
+        <!-- Interior Buttons -->
+        <div class="my-4 lg:my-8" id="interior-buttons">
+          <h3 class="font-semibold mb-2">Interior Color</h3>
+          <div class="flex space-x-4">
+            <button
+              class="btn-selected transition-transform duration-300 hover:scale-110"
+            >
+              <img
+                src="./images/button-dark.avif"
+                alt="Dark"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+            <button class="transition-transform duration-300 hover:scale-110">
+              <img
+                src="./images/button-light.avif"
+                alt="Light"
+                class="w-8 md:w-6 lg:w-8"
+              />
+            </button>
+          </div>
+        </div>
+        <!-- Wheel Buttons -->
+        <div class="my-4 lg:my-8" id="wheel-buttons">
+          <h3 class="font-semibold mb-2">Wheels</h3>
+          <div class="text-sm">
+            <button
+              class="w-full py-4 md:py-2 lg:py-4 mb-2 bg-gray-700 text-white rounded-lg transition-colors duration-300 hover:bg-gray-600 font-medium border-none"
+            >
+              Standard Wheels
+            </button>
+            <button
+              class="w-full py-4 md:py-2 lg:py-4 mb-2 bg-gray-200 hover:text-white rounded-lg transition-colors duration-300 hover:bg-gray-600 font-medium border-none"
+            >
+              Performance Wheels (+$2500)
+            </button>
+          </div>
+        </div>
+        <!-- Full Self Driving Option -->
+        <div class="border p-4 md:p-3 lg:p-4 mb-4 lg:mb-8 rounded-lg shadow">
+          <h3 class="font-semibold text-sm mb-2 md:mb-1 lg:mb-2">
+            Full Self-Driving
+          </h3>
+          <label class="flex items-center space-x-3 md:space-x-2">
+            <input
+              type="checkbox"
+              id="full-self-driving-checkbox"
+              class="form-checkbox h-5 w-5 text-gray-600"
+            />
+            <span
+              class="text-sm md:tracking-tight lg:tracking-normal lg:text-base"
+              >Add Full Self-Driving for $8,500</span
+            >
+          </label>
+        </div>
+        <!-- Performance Upgrade -->
+        <div class="mb-4 lg:mb-8">
+          <h3 class="font-semibold mb-2">Performance Package</h3>
+          <button
+            id="performance-btn"
+            class="w-full py-4 md:p-3 lg:py-4 bg-gray-200 hover:bg-gray-400 text-sm font-medium rounded-lg border-2 border-transparent"
+          >
+            Performance Upgrade (+$5,000)
+          </button>
+        </div>
+        <!-- Accessories Checkboxes -->
+        <div class="my-4 lg:my-8">
+          <h3 class="font-semibold mb-2">Accessories</h3>
+          <div
+            class="space-y-4 md:space-y-2 lg:space-y-4 text-gray-500 text-sm font-medium"
+          >
+            <label
+              class="flex items-center justify-between py-4 px-4 border gap-2 rounded-lg shadow"
+            >
+              <span>Center Console Trays</span>
+              <span class="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  class="accessory-form-checkbox h-5 w-5"
+                />
+                <span>$35</span>
+              </span>
+            </label>
+            <label
+              class="flex items-center justify-between py-4 px-4 border gap-2 rounded-lg shadow"
+            >
+              <span>Sunshade</span>
+              <span class="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  class="accessory-form-checkbox h-5 w-5"
+                />
+                <span>$105</span>
+              </span>
+            </label>
+            <label
+              class="flex items-center justify-between py-4 px-4 border gap-2 rounded-lg shadow"
+            >
+              <span>All-Weather Interior Liners</span>
+              <span class="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  class="accessory-form-checkbox h-5 w-5"
+                />
+                <span>$225</span>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Total Price Section -->
+        <div class="pt-4 flex justify-between items-center">
+          <h3 class="font-semibold text-lg">Total Price</h3>
+          <p id="total-price" class="text-2xl font-semibold">$52,490</p>
+        </div>
+
+        <!-- Payment Breakdown -->
+        <div class="border-t pt-4 mt-2 lg:mt-4">
+          <h3 class="font-semibold">Estimated Payment Breakdown</h3>
+          <div class="mt-2 text-sm">
+            <p>
+              Down Payment:
+              <span id="down-payment" class="font-semibold">$5000</span>
+            </p>
+            <p>Loan Term: <span class="font-semibold">60 Months</span></p>
+            <p>Interest Rate: <span class="font-semibold">5.99% APR</span></p>
+            <p>
+              Estimated Monthly Payment:
+              <span id="monthly-payment" class="font-semibold text-base"
+                >$818.65</span
+              >
+            </p>
+          </div>
+        </div>
+      </aside>
+      <!-- Sidebar -->
+    </main>
+    <script src="js/script.js" async></script>
+  </body>
+</html>
