@@ -122,7 +122,7 @@ const interiorImages = {
 //Update the exterior image based on color and wheels
 const updateExteriorImage = () => {
   const performanceSuffix = selectedOptions["Performance Wheels"]
-    ? "-Performance"
+    ? "-performance"
     : "";
   const colorKey =
     selectedColor in exteriorImages ? selectedColor : "Stealth Grey";
